@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export default function Navbar({ name }) {
   return (
     <div className="py-5 flex justify-around items-center dark:text-white dark:bg-dark1 mx-auto">
