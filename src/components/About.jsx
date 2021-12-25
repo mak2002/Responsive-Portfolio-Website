@@ -2,8 +2,8 @@ import React from "react";
 
 export default function About({ description }) {
   return (
-    <div className="flex-col items-center">
-      <div className="dark:text-white px-5 mx-auto dark:bg-dark1 whitespace-normal mt-10 w-full md:mx-auto md:w-4/6 md:flex md:items-center md:justify-between">
+    <section className=" min-h-screen flex-col items-center">
+      <div className="dark:text-white px-5 mx-auto dark:bg-dark1 whitespace-normal mt-10 w-full md:mx-auto md:flex md:items-center md:justify-evenly">
         <p className="text-bold text-5xl">Hello &#128075;, I am Mayank Bondre</p>
         {/* <p></p> */}
         <img
@@ -13,6 +13,6 @@ export default function About({ description }) {
         />
       </div>
       <p className="text-left mt-16 text-4xl whitespace-normal dark:text-white md:w-3/6 md:whitespace-normal md:mx-auto">{description}</p>
-    </div>
+    </section>
   );
 }

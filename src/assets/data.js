@@ -16,8 +16,9 @@ const data = {
   ],
   backendSkills: [
     'NodeJs',
-    "MySQL",
+    // "MySQL",
     "PostgresSQL",
+    "ExpressJS"
     // "Node JS, Express",
 
   ]

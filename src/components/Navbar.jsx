@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar({ name }) {
   return (
-    <div className="py-5 flex justify-around items-center dark:text-white dark:bg-dark1 mx-auto">
+    <div className="py-5 min-w-full flex justify-around items-center dark:text-white dark:bg-dark1 mx-auto">
       <div className="logo text-4xl font-bold">{name}</div>
       <div className="hidden md:flex justify-between space-x-10 items-center">
         <a href="#about" className="text-2xl">
