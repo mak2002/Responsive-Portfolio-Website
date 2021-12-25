@@ -14,7 +14,7 @@ export default function Skill({ skills, title }) {
                 ".png"
               }
               alt=""
-              className="h-16 my-4 md:h-10 lg:h-32 flex transition duration-400 ease-in-out hover:-translate-y-1 hover:scale-110 transform object-cover"
+              className="h-16 my-5 mx-5 md:h-10 lg:h-32 flex transition duration-400 ease-in-out hover:-translate-y-1 hover:scale-110 transform object-cover"
             />
             <p className="text-center mt-4 dark:text-white text-xl">{skill}</p>
           </div>

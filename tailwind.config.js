@@ -1,17 +1,15 @@
 module.exports = {
-  darkMode: 'class',
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  darkMode: "class",
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      'white': '#ffffff',
-      'purple': '#3f3cbb',
-      'dark1': '#18161f',
+    extend: {
+      colors: {
+        dark1: {
+          50: "#18161f",
+          100:'#2d283b'
+        },
+      },
     },
-    extend: {},
   },
   plugins: [],
-}
+};

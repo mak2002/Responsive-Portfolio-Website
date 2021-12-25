@@ -4,7 +4,7 @@ import Skill from "./Skill";
 
 export default function Skills({ frontendSkills, backendSkills }) {
   return (
-    <div className="skills-class w-full flex flex-col justify-center items-center">
+    <section className="skills-class min-h-screen w-full flex flex-col justify-center items-center mb-20">
       <section
         class=" min-h-screen max-w-full  flex flex-col justify-center items-start "
         id="skills"
@@ -14,6 +14,6 @@ export default function Skills({ frontendSkills, backendSkills }) {
         <Skill skills={backendSkills} title={"BackEnd:"} />
       </section>
       <div></div>
-    </div>
+    </section>
   );
 }
