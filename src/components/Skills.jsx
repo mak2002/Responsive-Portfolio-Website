@@ -6,7 +6,7 @@ export default function Skills({ frontendSkills, backendSkills }) {
   return (
     <section className="skills-class min-h-screen w-full flex flex-col justify-center items-center mb-20">
       <section
-        class=" min-h-screen max-w-full  flex flex-col justify-center items-start "
+        className=" min-h-screen max-w-full  flex flex-col justify-center items-start "
         id="skills"
       >
       <h1 className="dark:text-white text-center w-full font-bold text-8xl mt-20 mb-32">Skills</h1>

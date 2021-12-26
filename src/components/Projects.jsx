@@ -16,9 +16,9 @@ export default function Projects() {
       className="min-h-screen max-w-full flex p-24 md:flex-row flex-wrap justify-center items-stretch"
     >
 
-      {data && data.projects.map((project) => {
+      {data && data.projects.map((project, index) => {
         {console.log('project',project)}
-        return <Project  imgPath={project.imgPath} projectName={project.projectName} description={project.description} projectLink={project.projectLink} frontEnd={project.frontEnd} backEnd={project.backEnd}/>
+        return <Project key={index}  imgPath={project.imgPath} projectName={project.projectName} description={project.description} projectLink={project.projectLink} frontEnd={project.frontEnd} backEnd={project.backEnd}/>
 
       })}
     </section>

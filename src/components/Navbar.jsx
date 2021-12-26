@@ -10,25 +10,25 @@ export default function Navbar({ name }) {
       <div className="hidden md:flex justify-between space-x-48 items-center">
         <a
           href="#about"
-          className="text-2xl bg hover:bg-yellow-700 p-2 rounded-full transition duration-400 ease-in-out"
+          className="text-2xl bg hover:bg-yellow-700 p-2 rounded transition duration-400 ease-in-out"
         >
-          About
+          About 
         </a>
         <a
           href="#skills"
-          className="text-2xl hover:bg-yellow-700 p-2 rounded-full transition duration-400 ease-in-out"
+          className="text-2xl hover:bg-yellow-700 p-2 rounded transition duration-400 ease-in-out"
         >
           Skills
         </a>
         <a
           href="#projects"
-          className="text-2xl hover:bg-yellow-700 p-2 rounded-full transition duration-400 ease-in-out"
+          className="text-2xl hover:bg-yellow-700 p-2 rounded transition duration-400 ease-in-out"
         >
           Projects
         </a>
         <a
           href="#contact"
-          className="text-2xl hover:bg-yellow-700 p-2 rounded-full transition duration-400 ease-in-out"
+          className="text-2xl hover:bg-yellow-700 p-2 rounded transition duration-400 ease-in-out"
         >
           Contact
         </a>
