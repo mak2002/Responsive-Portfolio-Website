@@ -6,7 +6,8 @@ const data = {
 
   about: {
     description:
-      "Junior Web Developer 👨, Currently a Student Pursuing B.Tech Degree in Computer Science, Interested in Contributing to Open Source 🎯, Always Learning new things 📝",
+    "Full stack developer and B.Tech Computer Science student with a passion for open source and continuous learning."
+      // "Full stack developer 👨, B.Tech Computer Science Student, Open Source Enthusiast 🎯, Always Learning new things 📝",
   },
   frontendSkills: [
     "React",

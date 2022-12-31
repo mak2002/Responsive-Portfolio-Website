@@ -2,36 +2,21 @@ import React from "react";
 import data from "../assets/data";
 
 export default function Navbar({ name }) {
-
-
   return (
-    <div className="sticky top-0 z-50 bg-dark1-100 min-w-full flex justify-around items-center dark:text-white dark:bg-dark1 mx-auto">
+    <div className="sticky top-0 z-50 bg-dark1-50 min-w-full flex justify-around items-center border-b-2 border-grey-400 dark:text-white dark:bg-dark1-50 mx-auto">
       {/* <div className="logo text-4xl font-bold">{name}</div> */}
-      <div className="hidden md:flex justify-between space-x-48 items-center">
-        <a
-          href="#about"
-          className="text-2xl bg hover:bg-yellow-700 p-2 rounded transition duration-400 ease-in-out"
-        >
-          About 
-        </a>
-        <a
-          href="#skills"
-          className="text-2xl hover:bg-yellow-700 p-2 rounded transition duration-400 ease-in-out"
-        >
-          Skills
-        </a>
-        <a
-          href="#projects"
-          className="text-2xl hover:bg-yellow-700 p-2 rounded transition duration-400 ease-in-out"
-        >
-          Projects
-        </a>
-        <a
-          href="#contact"
-          className="text-2xl hover:bg-yellow-700 p-2 rounded transition duration-400 ease-in-out"
-        >
-          Contact
-        </a>
+      <p className="text-2xl font-bold hover:text-dark1-500">Mayank</p>
+
+      <div className="hidden md:flex justify-between space-x-28 items-center ">
+        {data.navbar.map((item) => (
+          <a
+            href={"#" + item}
+            className="text-2xl hover:text-green-400 py-2 my-2 rounded transition duration-400 ease-in-out"
+          >
+            {item}.
+          </a>
+        ))}
+
         {/* <button onCLick={handleClick}>Theme</button> */}
 
         <div className="md:hidden">
